@@ -15,8 +15,7 @@ Q0 = np.array([np.ones_like(x), intl_cond_1D(x)])
 A = np.array([
     [1, 0],
     [0, 1]
-])
-
+]
 Q0_1D = np.array([np.ones_like(x)])  # Also works for 1D!
 
 A_1D = np.array([
