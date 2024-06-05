@@ -26,7 +26,7 @@ Q0_const_stress = np.array([np.ones_like(x_const), intl_cond_1D(x_const)])
 Q0_var_advection = np.array([intl_cond_1D(x_var)])
 
 """Plotting Settings"""
-PLOT_Q4_ADVECTION, PLOT_Q4_STRESS, PLOT_Q5 = False, False, True
+PLOT_Q4_ADVECTION, PLOT_Q4_STRESS, PLOT_Q5 = True, True, True
 nQ4 = [0, 1, 2, 5]
 methods = [Upwind, BeamWarming, Superbee]
 linestyle_advection = [plt.get_cmap('cividis')(value) for value in np.linspace(0, 1, 4)]
